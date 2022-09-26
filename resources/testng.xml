@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+	<test name="Default test">
+		<classes>
+			<class name="testNG.assertions"></class>
+			<class name="testNG.dependency"></class>
+			<class name="testNG.enable"></class>
+			<class name="testNG.execption"></class>
+			<class name="testNG.oredr"></class>
+			<class name="testNG.priority"></class>
+		</classes>
+	</test> <!-- Default test -->
+	
+	<test name="Second test">
+		<classes>
+			<class name="testNG.dataProvider"></class>
+			<class name="testNG.dataProvider2"></class>
+			<class name="testNG.dataProviderWithExcel"></class>
+		</classes>
+	</test><!-- Second test -->
+	
+</suite> <!-- Default Suite -->
